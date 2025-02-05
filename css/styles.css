@@ -159,10 +159,14 @@ img {
     justify-content: center;
 }
 .strategy-list {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 24px;
+    width: calc((100%-72px)/4);
+}
+.strategy-list-item {
+    display: inline-block;
+}
 }
 .conteiner-strategy>li {
     display: flex;
@@ -181,16 +185,13 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
 }
-.strategy-list {
-width: calc((100% - 72px) / 4);
-}
+
 .text-strategy {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 8px;
 }
 
 .title {
@@ -264,7 +265,7 @@ width: calc((100% - 48px) / 3);
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 48px;
+    gap: 48px;
     column-gap: 24px;
 }
 .title-portfolio {
