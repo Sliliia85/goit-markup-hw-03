@@ -162,7 +162,6 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: calc((100%-72px)/4);
     gap: 24px;
 }
 .strategy-list-item {
