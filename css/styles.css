@@ -3,10 +3,9 @@ body {
     color :#434455;
     background-color: #fff;
 }
-.page-conteiner {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.conteiner {
+padding-left: 15px;
+padding-right: 15px;
 }
 main {
     flex-grow: 1;
@@ -27,8 +26,6 @@ a {
     padding: 24px 156px;
     gap: 332px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .nav-header {
   display: flex;
@@ -280,7 +277,7 @@ color: #434455;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.conteiner {
+.conteiner-footer {
     width: 264px;
     height: 112px;
     display: inline-flex;
@@ -288,7 +285,7 @@ color: #434455;
     margin-right:  1020px;
     margin-left: 156px;
 }
-.footer > logo {
+.logo-footer {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
