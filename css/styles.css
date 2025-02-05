@@ -15,19 +15,25 @@ main {
 a {
     text-decoration: none;
 }
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .conteiner-header {
     background-color: #FFFFFF;
-    width: 1440px;
+    width: 1158px;
     display: flex;
     flex-direction: row;
     height: 72px;
     padding: 24px 156px;
     gap: 332px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .nav-header {
   display: flex;
   flex-direction: row;  
+  align-items: center;
 }
 .menu-header {
     display: flex;
@@ -42,7 +48,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-right: 76px;
+    margin-right: 76px;
 }
 span {
     color: #2e2f42;
@@ -57,6 +63,7 @@ ul, ol {
     padding-left: 0;
     margin: 0;
     text-decoration: none;
+    list-style: none;
 }
 h1, h2, h3 {
     margin: 0;
@@ -81,6 +88,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: underline;
+  padding:  24px 0;
 }
 .link:hover, .link:focus {
     color: #404bbf;
@@ -269,14 +277,16 @@ color: #434455;
     background-color: #2e2f42;
     width: 1440px;
     height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.conteiner-footer {
+.conteiner {
     width: 264px;
     height: 112px;
     display: inline-flex;
     flex-direction: column;
-    margin: 100px 1020px 100px 156px;
-    row-gap: 16px;
+    margin-right:  1020px;
+    margin-left: 156px;
 }
 .footer > logo {
     font-family: Raleway, sans-serif;
@@ -286,6 +296,8 @@ color: #434455;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-span {
     color: #f4f4fd;
@@ -303,4 +315,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 font-weight: 400;
+max-width: 264px;
 }
