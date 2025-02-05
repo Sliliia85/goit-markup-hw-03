@@ -123,12 +123,12 @@ img {
 }
 .conteiner-solution {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     gap: 48px;
+    padding-left: 472px;
+    padding: 472px;
 }
 .title-solution {
     font-size: 56px;
@@ -190,6 +190,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .strategy-list {
 width: calc((100% - 72px) / 4);
@@ -292,6 +293,7 @@ width: calc((100% - 48px) / 3);
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 48px;
+    column-gap: 24px;
 }
 .title-portfolio {
 font-weight: 700;
