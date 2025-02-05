@@ -167,7 +167,6 @@ img {
 .strategy-list-item {
     display: inline-block;
 }
-}
 .conteiner-strategy>li {
     display: flex;
     align-items: flex-start;
@@ -193,7 +192,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
 .title {
     margin-bottom: 72px;
 }
